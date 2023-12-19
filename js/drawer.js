@@ -15,3 +15,6 @@
 $(".icon-block").on("click", function () {
   $(this).next().slideToggle();
 });
+
+// 参考にしたサイト
+// https://webukatu.com/wordpress/blog/6087/
