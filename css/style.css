@@ -8,7 +8,7 @@ body {
   background-image: url(../image/wallpaper.jpg);
 }
 
-.container {
+.container1 {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
