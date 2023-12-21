@@ -17,23 +17,23 @@
         <div class="container-fluid">
           <div class="d-flex flex-row">
             <div class="col-xxl-3 offset-xxl-2 col-xl-4 offset-xl-1 col-lg-4 offset-lg-1 col-md-4 offset-md-1 col-sm-4 offset-sm-1 col-4 offset-1">
-              <input type="date" class="form-control h-100">
+              <input type="date" class="form-control h-100" id="dateForm" onclick="">
             </div>
             <div class="col-xxl-4 offset-xxl-1 col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-5 offset-1">
               <div class="form-floating">
-                <input type="text" class="form-control" id="floatingInput" placeholder="太郎">
+                <input type="text" class="form-control" id="floatingInput" placeholder="太郎" onclick="">
                 <label for="floatingInput">名前</label>
               </div>
             </div>
           </div>
           <div class="row mt-5">
             <div class="col-xxl-9 col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11 mx-auto mt-5">
-              <textarea rows="10" class="form-control"></textarea>
+              <textarea rows="10" class="form-control" id="textInput"></textarea>
             </div>
           </div>
           <div class="row mt-5">
             <div class="d-grid col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-4 col-4 mx-auto mt-5">
-              <button type="button" class="btn btn-outline-primary btn-lg">送信</button>
+              <button type="submit" class="btn btn-outline-primary btn-lg" onclick="clearDate(); clearName(); clearText()">送信</button>
             </div>
           </div>
         </div>
@@ -50,5 +50,6 @@
       </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="js/form.js"></script>
   </body>
 </html>
