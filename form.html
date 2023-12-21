@@ -14,13 +14,29 @@
         <h1 class="headline mb-5">お問い合わせフォーム</h1>
       </header>
       <main>
-        <div class="input-date position-absolute start-50 translate-middle">
-          <input type="date" name="date-form" class="form-control-lg">
+        <div class="container-fluid">
+          <div class="d-flex flex-row">
+            <div class="col-xxl-3 offset-xxl-2 col-xl-4 offset-xl-1 col-lg-4 offset-lg-1 col-md-4 offset-md-1 col-sm-4 offset-sm-1 col-4 offset-1">
+              <input type="date" class="form-control h-100">
+            </div>
+            <div class="col-xxl-4 offset-xxl-1 col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-5 offset-1">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="floatingInput" placeholder="太郎">
+                <label for="floatingInput">名前</label>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-xxl-9 col-xl-11 col-lg-11 col-md-11 col-sm-11 col-11 mx-auto mt-5">
+              <textarea rows="10" class="form-control"></textarea>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="d-grid col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-4 col-4 mx-auto mt-5">
+              <button type="button" class="btn btn-outline-primary btn-lg">送信</button>
+            </div>
+          </div>
         </div>
-        <div class="form-block position-absolute top-50 start-50 translate-middle">
-          <textarea rows="8" class="form-control"></textarea>
-        </div>
-        <div class="submit-button-area"></div>
       </main>
       <footer>
         <div class="footer-row">
